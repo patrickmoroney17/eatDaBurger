@@ -1,2 +1,1 @@
-# eatDaBurger
-Eat Da Burger
+# sequelizedBurger
