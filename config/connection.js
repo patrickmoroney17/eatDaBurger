@@ -1,15 +1,6 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
 
-// var connection = mysql.createConnection({
-//   host: "bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com,
-//   port: 3306,
-//   user: "rykz1l0vw0wjxugx",
-//   password: "mh4c3iiq6jtbzihx",
-//   database: "vz9grcsvruy8yas0"
-// });
-
-
 var connection;
 
 if (process.env.JAWSDB_URL) {
@@ -22,8 +13,6 @@ if (process.env.JAWSDB_URL) {
     database: "eatDaBurger_db"
   });
 };
-
-
 
 // Make connection.
 connection.connect(function(err) {
