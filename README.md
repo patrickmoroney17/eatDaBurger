@@ -34,7 +34,7 @@ With this assignment, I've created a burger logger with MySQL, Node, Express, Ha
 └── views
     ├── index.handlebars
     ├── layouts
-    │    └── main.handlebars
+    │   └── main.handlebars
     └── partials
         └── burgers
             └── burger-block.handlebars
