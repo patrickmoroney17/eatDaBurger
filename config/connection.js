@@ -2,12 +2,27 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "g3v9lgqa8h5nq05o.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  host: "jsftj8ez0cevjz8v.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
   port: 3306,
-  user: "gldptqjwcahqnj9k",
-  password: "eku7mq2tkpathss7",
-  database: "ezb1rxqrg63xnqg4"
+  user: "b3lns32qshskaajm",
+  password: "ap5p8h1t5gon5c6a",
+  database: "j2p0ctgiin4fq1cq"
 });
+
+// var connection;
+
+// if (process.env.JAWSDB_URL) {
+//   connection = mysql.createConnection(process.env.JAWSDB_URL)
+// } else {
+//   connection = mysql.createConnection({
+//     host: "localhost",
+//     user: "root",
+//     password: "password",
+//     database: "eatDaBurger_db"
+//   });
+// };
+
+
 
 // Make connection.
 connection.connect(function(err) {
